@@ -1,0 +1,48 @@
+#wrapper {
+    width: 95%;
+    margin: auto;
+    padding: 2%;
+    max-width: 1200px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#main {
+    width: 60%;
+    margin-right: 5%;
+    float: left;
+}
+
+aside {
+    width: 35%;
+    float: right;
+}
+
+footer {
+    display: none;
+    width: 100%;
+    float: left;
+}
+
+@media (max-width:450px) {
+    #main {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+    }
+}
+
+@media print {
+    footer {
+        display: inline;
+    }
+}
